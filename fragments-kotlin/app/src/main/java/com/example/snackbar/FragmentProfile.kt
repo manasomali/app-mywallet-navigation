@@ -19,6 +19,9 @@ class FragmentProfile : Fragment() {
         view.buttonAjudaId.setOnClickListener {
             findNavController().navigate(R.id.action_fragmentProfile_to_ajudaFragment)
         }
+        view.buttonDadosId.setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentProfile_to_dadosFragment)
+        }
         return view
     }
 }
